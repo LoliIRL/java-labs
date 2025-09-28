@@ -1,0 +1,143 @@
+# --- Файлы скомпилированного кода ---
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Папки сборки ---
+target/
+build/
+out/
+bin/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# --- Файлы Intellij IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# --- Файлы Eclipse ---
+.settings/
+.project
+.classpath
+
+# --- Файлы NetBeans ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- Логи ---
+*.log
+logs/
+
+# --- Файлы операционных систем ---
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# --- Файлы окружения ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Файлы пакетных менеджеров ---
+node_modules/
+jspm_packages/
+
+# --- Файлы покрытия кода ---
+*.gcno
+*.gcda
+.coverage
+.coverage.*
+*.lcov
+
+# --- Файлы профилирования ---
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# --- Временные файлы ---
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# --- Файлы базы данных ---
+*.db
+*.sqlite
+*.h2.db
+
+# --- Файлы бэкапов ---
+*.bak
+*.backup
+
+# --- Файлы документации ---
+**/doc/api/
+**/docs/gen/
+
+# --- Файлы Gradle ---
+.gradle/
+build/
+
+# --- Файлы Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- Файлы проверки (Checkstyle, PMD, etc) ---
+checkstyle-output.xml
+pmd.xml
+findbugs.xml
+
+# --- Файлы систем сборки ---
+!.mvn/wrapper/maven-wrapper.jar
+
+# --- Исключения (то что НЕ игнорируем) ---
+!src/main/resources/
+!src/test/resources/
+!*.md
+!*.txt
+!*.properties
+!*.xml
+!*.yml
+!*.yaml
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+!src/
+!src/**/*
